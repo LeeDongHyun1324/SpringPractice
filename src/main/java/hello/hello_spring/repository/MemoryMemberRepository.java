@@ -1,9 +1,11 @@
 package hello.hello_spring.repository;
 
 import hello.hello_spring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import javax.lang.model.type.ArrayType;
 import java.util.*;
+
 
 public class MemoryMemberRepository implements MemberRepository {
 
